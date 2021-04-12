@@ -107,14 +107,14 @@ const SignUp = (props) => {
     >
         <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
           <View style={styles.inner}>
-             {/* <View style={styles.imagen}>
+             <View style={styles.imagen}>
               <Image
                 style={styles.stretch}
                 source={{
                   uri: "https://i.postimg.cc/mrWQN3x1/logo-final-8.png",
                 }}
               />
-            </View> */}
+            </View>
             <Card containerStyle={styles.input}>
               <Input
                 label="Nombre"
